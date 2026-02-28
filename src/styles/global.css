@@ -8,6 +8,7 @@
   height: 75px;
   background-color: black;
   color: white;
+  margin-bottom: 20px;
 }
 .right{
   width: 30%;
@@ -22,5 +23,45 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  font-weight: bolder;
+}
+
+.hero-section{
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-section button{
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.products img{
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  background-color: orange;
   font-weight: bolder;
 }
