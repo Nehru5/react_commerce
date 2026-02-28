@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <>
@@ -9,9 +9,9 @@ const Nav = () => {
         </div>
         <div className="right">
           <ol>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Orders</li>
+            <Link className='link' to={"/"}><li>Home</li></Link>
+            <Link className='link' to={"/products"}><li>Products</li></Link>
+            <Link className='link' to={"/orders"}><li>Orders</li></Link>
           </ol>
         </div>
       </div>
