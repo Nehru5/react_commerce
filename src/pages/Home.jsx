@@ -1,14 +1,20 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import {useNavigate} from "react-router-dom"
+
 const Home = () => {
+  let navigate = useNavigate()
+  function product_navigation(){
+    navigate("/products")
+  }
   return (
     <>
     <Nav/>
       <div className="hero-section">
         <h2>Welcome to Cartify</h2>
         <p>Discover the products in affordable price</p>
-        <button>Shop now</button>
+        <button onClick={product_navigation}>Shop now</button>
       </div>
       <center><h1 style={{margin:"30px"}}>Products</h1></center>
       <div className="products">

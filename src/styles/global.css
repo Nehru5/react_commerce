@@ -74,6 +74,12 @@
   padding: 20px;
 }
 
+.link{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .p-c img{
   height: 200px;
   box-shadow: 0 0 10px black;
