@@ -1,45 +1,84 @@
 {
-  "products":[{
-    "id":"1",
-    "name":"Nike Running Shoes",
-    "price":3000,
-    "category":"Fashion",
-    "img":"https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8=",
-    "description":"Sports Shoes",
-    "rating":4.5
-  },
-  {
-    "id":"2",
-    "name":"Samsung F23",
-    "price":20000,
-    "category":"Electronics",
-    "img":"https://rukmini1.flixcart.com/image/1500/1500/xif0q/mobile/0/h/k/-original-imagcg22czc3ggvw.jpeg?q=70",
-    "description":"4GB Ram and 128GB ROM",
-    "rating":"3.9"
-  },{
-        "id":"3",
-    "name":"Playstation 5",
-    "price":50000,
-    "category":"Electronics",
-    "img":"https://png.pngtree.com/png-vector/20250212/ourmid/pngtree-ps-5-or-playstation-controller-joystick-png-image_15443900.png",
-    "description":"PC game station",
-    "rating":"4.4"
-  },{
-        "id":"4",
-    "name":"Formal Shirt",
-    "price":699,
-    "category":"Fashion",
-    "img":"https://hamercop.com/cdn/shop/files/3507_6_800x.jpg?v=1728468025",
-    "description":"Cotton Shirt",
-    "rating":"4.9"
-  },{
-        "id":"5",
-    "name":"Samsung Smart TV",
-    "price":150000,
-    "category":"Electronics",
-    "img":"https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/5ed1ddf8-4e73-11ef-a427-bea7e36404f4.jpg",
-    "description":"65 inch QLED Smart TV",
-    "rating":"5"
-  }],
-  "orders":[]
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Running Shoes",
+      "price": 3000,
+      "category": "Fashion",
+      "img": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8=",
+      "description": "Sports Shoes",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Samsung F23",
+      "price": 20000,
+      "category": "Electronics",
+      "img": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/mobile/0/h/k/-original-imagcg22czc3ggvw.jpeg?q=70",
+      "description": "4GB Ram and 128GB ROM",
+      "rating": "3.9"
+    },
+    {
+      "id": "3",
+      "name": "Playstation 5",
+      "price": 50000,
+      "category": "Electronics",
+      "img": "https://png.pngtree.com/png-vector/20250212/ourmid/pngtree-ps-5-or-playstation-controller-joystick-png-image_15443900.png",
+      "description": "PC game station",
+      "rating": "4.4"
+    },
+    {
+      "id": "4",
+      "name": "Formal Shirt",
+      "price": 699,
+      "category": "Fashion",
+      "img": "https://hamercop.com/cdn/shop/files/3507_6_800x.jpg?v=1728468025",
+      "description": "Cotton Shirt",
+      "rating": "4.9"
+    },
+    {
+      "id": "5",
+      "name": "Samsung Smart TV",
+      "price": 150000,
+      "category": "Electronics",
+      "img": "https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/5ed1ddf8-4e73-11ef-a427-bea7e36404f4.jpg",
+      "description": "65 inch QLED Smart TV",
+      "rating": "5"
+    }
+  ],
+  "orders": [
+    {
+      "id": "4c99",
+      "productId": "1",
+      "productName": "Nike Running Shoes",
+      "productImage": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8=",
+      "productRating": 4.5,
+      "totalPrice": 3000,
+      "customer": {
+        "name": "Nehru@123",
+        "email": "nehruraja9485@gmail.com",
+        "phone": "09482947529",
+        "address": "2nd cross Srinivas Nagar pattegarpalya bengaluru\nBalaji Presidency"
+      },
+      "date": "4/3/2026, 11:29:01 am",
+      "status": "not delivered"
+    },
+    {
+      "id": "2e36",
+      "productId": "1",
+      "productName": "Nike Running Shoes",
+      "productImage": "https://media.istockphoto.com/id/1688015574/photo/white-sneaker-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gz8bGn7h_eaF4uJGJjdZYYhJDrrigHAygo2Vi8tZjH8=",
+      "productRating": 4.5,
+      "totalPrice": 3000,
+      "customer": {
+        "name": "Raja",
+        "email": "Raja@gmail.com",
+        "phone": "98765432",
+        "address": "2nd cross Srinivas Nagar pattegarpalya bengaluru\nBalaji Presidency"
+      },
+      "date": "4/3/2026, 11:29:54 am",
+      "status": "not delivered"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
